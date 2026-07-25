@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Restaking Core · OperatorSet
+
+module RestakingCoreOperatorSet {
+
+  embed gates 3..=6 {
+    context: "OperatorSet pack on MIS domain restaking — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_operator_set_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant operator_set_061: operator_set_061_bound == true;
+  invariant operator_set_062: operator_set_062_bound == true;
+  invariant operator_set_063: operator_set_063_bound == true;
+  invariant operator_set_064: operator_set_064_bound == true;
+  invariant operator_set_065: operator_set_065_bound == true;
+  invariant operator_set_066: operator_set_066_bound == true;
+  invariant operator_set_067: operator_set_067_bound == true;
+  invariant operator_set_068: operator_set_068_bound == true;
+  invariant operator_set_069: operator_set_069_bound == true;
+  invariant operator_set_070: operator_set_070_bound == true;
+  invariant operator_set_071: operator_set_071_bound == true;
+  invariant operator_set_072: operator_set_072_bound == true;
+  invariant operator_set_073: operator_set_073_bound == true;
+  invariant operator_set_074: operator_set_074_bound == true;
+  invariant operator_set_075: operator_set_075_bound == true;
+  invariant operator_set_076: operator_set_076_bound == true;
+  invariant operator_set_077: operator_set_077_bound == true;
+  invariant operator_set_078: operator_set_078_bound == true;
+  invariant operator_set_079: operator_set_079_bound == true;
+  invariant operator_set_080: operator_set_080_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_061(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_061_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_062(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_062_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_063(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_063_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_064(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_064_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_065(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_065_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_066(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_066_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_067(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_067_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_068(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_068_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_069(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_069_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_070(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_070_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_071(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_071_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_072(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_072_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_073(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_073_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_074(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_074_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_075(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_075_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_076(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_076_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_077(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_077_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_078(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_078_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_079(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_079_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_operator_set_080(payload: Bytes) {
+    require payload != @0;
+    constraint operator_set_080_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

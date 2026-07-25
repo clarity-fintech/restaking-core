@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Restaking Core · RestakeBond
+
+module RestakingCoreRestakeBond {
+
+  embed gates 3..=6 {
+    context: "RestakeBond pack on MIS domain restaking — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_restake_bond_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant restake_bond_041: restake_bond_041_bound == true;
+  invariant restake_bond_042: restake_bond_042_bound == true;
+  invariant restake_bond_043: restake_bond_043_bound == true;
+  invariant restake_bond_044: restake_bond_044_bound == true;
+  invariant restake_bond_045: restake_bond_045_bound == true;
+  invariant restake_bond_046: restake_bond_046_bound == true;
+  invariant restake_bond_047: restake_bond_047_bound == true;
+  invariant restake_bond_048: restake_bond_048_bound == true;
+  invariant restake_bond_049: restake_bond_049_bound == true;
+  invariant restake_bond_050: restake_bond_050_bound == true;
+  invariant restake_bond_051: restake_bond_051_bound == true;
+  invariant restake_bond_052: restake_bond_052_bound == true;
+  invariant restake_bond_053: restake_bond_053_bound == true;
+  invariant restake_bond_054: restake_bond_054_bound == true;
+  invariant restake_bond_055: restake_bond_055_bound == true;
+  invariant restake_bond_056: restake_bond_056_bound == true;
+  invariant restake_bond_057: restake_bond_057_bound == true;
+  invariant restake_bond_058: restake_bond_058_bound == true;
+  invariant restake_bond_059: restake_bond_059_bound == true;
+  invariant restake_bond_060: restake_bond_060_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_041(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_041_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_042(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_042_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_043(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_043_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_044(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_044_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_045(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_045_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_046(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_046_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_047(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_047_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_048(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_048_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_049(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_049_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_050(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_050_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_051(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_051_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_052(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_052_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_053(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_053_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_054(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_054_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_055(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_055_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_056(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_056_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_057(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_057_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_058(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_058_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_059(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_059_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_restake_bond_060(payload: Bytes) {
+    require payload != @0;
+    constraint restake_bond_060_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

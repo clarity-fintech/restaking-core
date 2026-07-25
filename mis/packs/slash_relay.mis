@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Restaking Core · SlashRelay
+
+module RestakingCoreSlashRelay {
+
+  embed gates 3..=6 {
+    context: "SlashRelay pack on MIS domain restaking — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_slash_relay_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant slash_relay_081: slash_relay_081_bound == true;
+  invariant slash_relay_082: slash_relay_082_bound == true;
+  invariant slash_relay_083: slash_relay_083_bound == true;
+  invariant slash_relay_084: slash_relay_084_bound == true;
+  invariant slash_relay_085: slash_relay_085_bound == true;
+  invariant slash_relay_086: slash_relay_086_bound == true;
+  invariant slash_relay_087: slash_relay_087_bound == true;
+  invariant slash_relay_088: slash_relay_088_bound == true;
+  invariant slash_relay_089: slash_relay_089_bound == true;
+  invariant slash_relay_090: slash_relay_090_bound == true;
+  invariant slash_relay_091: slash_relay_091_bound == true;
+  invariant slash_relay_092: slash_relay_092_bound == true;
+  invariant slash_relay_093: slash_relay_093_bound == true;
+  invariant slash_relay_094: slash_relay_094_bound == true;
+  invariant slash_relay_095: slash_relay_095_bound == true;
+  invariant slash_relay_096: slash_relay_096_bound == true;
+  invariant slash_relay_097: slash_relay_097_bound == true;
+  invariant slash_relay_098: slash_relay_098_bound == true;
+  invariant slash_relay_099: slash_relay_099_bound == true;
+  invariant slash_relay_100: slash_relay_100_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_081(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_081_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_082(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_082_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_083(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_083_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_084(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_084_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_085(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_085_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_086(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_086_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_087(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_087_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_088(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_088_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_089(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_089_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_090(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_090_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_091(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_091_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_092(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_092_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_093(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_093_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_094(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_094_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_095(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_095_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_096(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_096_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_097(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_097_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_098(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_098_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_099(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_099_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_slash_relay_100(payload: Bytes) {
+    require payload != @0;
+    constraint slash_relay_100_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
